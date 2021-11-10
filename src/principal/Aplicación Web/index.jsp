@@ -17,7 +17,13 @@ List<Seminarios> lista=(List<Seminarios>) request.getAttribute("lista");
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Listado de Seminarios</h1>
+   <h1>Registro  de Seminarios</h1>
+		<table border="1">
+            <tr> SEGUNDO PARCIAL TEM-742
+                NOMBRE:MARELYN ROSE SOTO PALMA
+                CI: 9901243
+            </tr>
+        </table>
         <p> <a href="MainController?op=nuevo">Nuevo</a></p>
         <table border="1">
             <tr>
